@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { Alert, Button, Image, StyleSheet, Text, TextInput, TouchableHighlight, TouchableOpacity, View } from 'react-native';
-import Logo from './components/Logo.js';
-import Test from './components/Test.js';
 import Styles from './styles/Styles.js';
 
 export default function App() {
 
   return (
-    <SumView />
+    <View style={Styles.container}>
+      <SumView />
+      <CurrencyView/>
+    </View>
   );
 }
 
@@ -23,7 +24,7 @@ function SumView(){
   const [sum, setSum] = useState(0);
 
   return (
-    <View style={Styles.container}>
+    <View>
       <Text>Number 1:</Text>
       <TextInput 
         keyboardType='number-pad' 
@@ -55,7 +56,7 @@ function CurrencyView(){
 
   return (
     <View>
-
+      <Text>Currency converter here</Text>
     </View>
   );
 }
