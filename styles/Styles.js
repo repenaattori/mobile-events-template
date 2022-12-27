@@ -15,6 +15,11 @@ export default StyleSheet.create({
     label:{
         fontSize: 18,
         fontWeight: "bold"
+    },
+    result:{
+        color: '#b00000',
+        fontSize: 18,
+        fontWeight: "bold"
     }
 });
   

@@ -38,7 +38,7 @@ function SumView(){
         style={Styles.textInput}
       />
       <Button title='Sum' />
-      <Text style={Styles.label}>Sum is {sum}</Text>
+      <Text style={Styles.result}>Sum is 10</Text>
     </View>
   );
 }
