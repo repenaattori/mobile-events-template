@@ -25,20 +25,20 @@ function SumView(){
 
   return (
     <View>
-      <Text>Number 1:</Text>
+      <Text style={Styles.label}>Number 1:</Text>
       <TextInput 
         keyboardType='number-pad' 
         value={num1} 
         style={Styles.textInput}
       />
-      <Text>Number 2:</Text>
+      <Text style={Styles.label}>Number 2:</Text>
       <TextInput 
         keyboardType='number-pad' 
         value={num2}
         style={Styles.textInput}
       />
       <Button title='Sum' />
-      <Text>Sum is {sum}</Text>
+      <Text style={Styles.label}>Sum is {sum}</Text>
     </View>
   );
 }

@@ -11,6 +11,10 @@ export default StyleSheet.create({
         padding: 5,
         borderWidth:1,
         marginBottom: 10
+    },
+    label:{
+        fontSize: 18,
+        fontWeight: "bold"
     }
 });
   
