@@ -13,7 +13,7 @@ export default function App() {
 }
 
 /**
- * Calculate sum for two integers
+ * Calculate sum of two integers
  * Add all the necessary event handling for calculating the sum when pressing button
  * You may assure the number format in calculation using e.g. Number(num1)
  */
